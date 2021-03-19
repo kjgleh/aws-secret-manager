@@ -1,0 +1,5 @@
+spring:
+    datasource:
+        url: jdbc-secretsmanager:mysql://host:port/dbname
+        username: secretName
+        driver-class-name: com.amazonaws.secretsmanager.sql.AWSSecretsManagerMySQLDriver
